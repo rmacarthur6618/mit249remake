@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/temp.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+    <meta charset="utf-8">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Contact Us</title>
+    <!-- InstanceEndEditable -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script src="js/google-map-controls.js"></script>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;}
+      #map {
+        width: 400px;
+        height: 400px;
+        margin: 50px;
+      }
+    </style>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+	
+  <!-- InstanceBeginEditable name="body" -->
+	
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+          </form>
+        </div>
+      </div>
+    </nav>
+	  
+	  
+<hr>
+
+    <div class="container login" >
+      <form id="how-heard" action="/heard" method="post" class="text-center">
+        <div class="one-third column">
+        </div>
+        <div class="two-thirds column" id="main">
+          <fieldset>
+            <legend>What can we help you with?</legend>
+
+            <input type="radio" name="heard" value="shipping" id="shipping" />
+            <label for="search">Shipping problem</label><br>
+
+            <input type="radio" name="heard" value="payment" id="payment" />
+            <label for="print">Payment problem</label><br>
+			  
+            <input type="radio" name="heard" value="product" id="product" />
+            <label for="print">Question about a product</label><br>
+
+            <input type="radio" name="heard" value="other" id="other" />
+            <label for="other">Other</label><br>
+            <input type="text" name="other-input" id="other-text" />
+  
+            <input id="submit" type="submit" value="submit" />
+          </fieldset>
+        </div><!-- .two-thirds -->
+      </form>
+    </div><!-- .container -->
+    <script src="js/utilities.js"></script>
+    <script src="js/show-option.js"></script>
+    
+	  
+<!-- InstanceEndEditable -->
+
+<hr style="margin-top:350px;">
+
+
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © MyWebsite. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+    <script src="js/modernizr.2.7.1.js"></script>
+    <script src="js/geolocation.js"></script>
+  </body>
+<!-- InstanceEnd --></html>
